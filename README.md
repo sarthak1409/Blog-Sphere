@@ -1,2 +1,2 @@
 # Blog-Sphere
-A lightweight web app where users share profile details like name, caption, followers, and hobbies. Built with Node.js, EJS, MySQL, HTML, CSS, and JavaScript, it features sign-up, sign-in, and database-driven user management without blockchain.
+BlogSphere is a lightweight web app where users can share profile details like name, caption, followers, hobbies, and qualifications. Built with HTML, CSS, JavaScript (frontend) and Node.js, EJS, MySQL (backend), it features a sign-up and sign-in system, requiring users to log in each time. The project focuses on database-driven user management without blockchain integration.
