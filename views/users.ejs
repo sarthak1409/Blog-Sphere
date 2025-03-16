@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSphere</title>
+    <link rel="icon" href="/images/png/logo-grayscale-inverted.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div style="padding-top:20px ; display : flex; justify-content: center;height:20px; width: 100%;" > <img src="/images/png/logo-grayscale-inverted.png" alt="" style="margin:0; border: 2px solid black; height:50px; width: 50px;">
+
+        <h2 style="margin:0  ; text-align: center; font-size: 30px;">&nbsp;&nbsp;BlogSphere</h2> 
+    </div>
+    <div class="main-content-form-user">
+        <% if (user) { %>
+        <h2 style="padding-top: 20px; text-align: center;">WELCOME TO BLOG of <%= user.username%> </h2>
+        <% } else { %>
+            <h3>User not found.</h3>
+        <% } %>
+        <div class="cards-form">
+            <div class="card-form-user"> 
+                <div class="edit-logo" style ="display: flex ;justify-items: flex-start;">
+                    <a href="/user"> <h2 style="justify-self:start; padding-left: 10px;" class="arrow"><i class="fa-solid fa-arrow-left"></i></h2></a>
+                <h2 style="text-align: center; justify-self: flex-end; padding-left: 100px;"><i class="fa-regular fa-id-card"></i> &nbsp;Details</h2>
+            </div>
+                <div class="form">
+                   
+                <form action="/user" method="get">
+                    <% if (user) { %>
+                        <!-- <img src="/istockphoto-1300845620-612x612.jpg" alt="not valid photo" style="height: 80px; width:80px"> -->
+                         <div style="text-align: center;">
+                        <img src="https://picsum.photos/200/300?random=<%=user.post_no%>" alt="not valid photo" style="height: 200px; width:200px; border-radius: 2rem;">
+                    </div>
+                       
+                        <h3><i class="fa-regular fa-user"></i> USERNAME: <%= user.username %></h3>
+
+                        <h3><i class="fa-regular fa-closed-captioning"></i> Caption: <%= user.caption %></h3> 
+                        <h3><i class="fa-regular fa-heart"></i> Likes: <%= user.likes %></h3> 
+                        <h3><i class="fa-solid fa-user-plus"></i> Followers: <%= user.followers %></h3> 
+                        <h3><i class="fa-solid fa-plus"></i> Following: <%= user.following %></h3> 
+                        <h3><i class="fa-regular fa-face-grin-stars"></i> Skills: <%= user.skills %></h3> 
+                        <h3><i class="fa-solid fa-medal"></i> Quallification: <%= user.qualification %></h3> 
+                    <% } else { %>
+                        <h3>User not found.</h3>
+                    <% } %>
+                    <!-- <div style="width:300px; display:flex; justify-content: center;"><button style= "text-align: center; margin-left:0px; margin-top:20px; font-size: 17px;" class="form-button">Go back</button></div> -->
+
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/png/logo-grayscale-inverted.png">
+    <title>BlogSphere</title>
+    <link rel="stylesheet" href="/style2.css"> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .card {
+            border: 5px solid #231717;
+            border-radius: 3rem; 
+            padding: 20px;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.8);
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .card p {
+            font-size: 1em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3rem;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        marquee{
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="right">
+        <h1>Welcome To Our Project !!</h1>
+    </marquee>
+    <div class="card">
+        <h2>Welcome to Our Website BlogSphere</h2>
+        <p>
+            Discover stories, insights, and experiences from people across the globe! 
+            Dive into a world of knowledge, creativity, and inspiration as users share 
+            their unique perspectives and ideas. Whether you're here to learn, laugh, 
+            or simply explore, our community of bloggers has something amazing for everyone. 
+            Join us in celebrating voices from around the world!
+        </p>
+        <form action="/user/login" method="get">
+            <h4>For More Click Button Below</h4>
+            <button type="submit" class="button">Explore More</button>
+        </form>
+    </div>
+</body>
+</html>

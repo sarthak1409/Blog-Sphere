@@ -1,0 +1,346 @@
+*{
+    font-family: "Roboto Slab", serif;
+    /* font-size: medium; */
+}
+body{
+     /* background-image: url("./images/Instagram.jpg"); */
+/* background: linear-gradient(to right, #2E1437, #948E99); */
+/* background: linear-gradient(to right, #870000, #190a05); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background-color: #000000a9; */
+background: linear-gradient(to right, #283048, #859398);
+
+
+     /* opacity: 0.8; */
+    background-size: cover; 
+    /* background-color: rgba(59, 61, 75, 0.77); */
+    margin: 1rem 2rem 1rem 2rem;
+    /* margin-bottom: 5rem; */
+    overflow:hidden;
+    /* position: absolute; */
+    padding: 0;
+}
+.main-content{
+    /* background-image: url("./images/stone-surface-background.jpg"); */
+    /* background-image: url("./images/Instagram.jpg"); */
+
+    /* opacity: 1;  */
+    /* padding: 0; */
+    /* background-color: #9c9ca1c5; */
+    margin-top: 60px;
+    background-color: #BBBBBC;
+    opacity: 0.8;
+/* background-color: #0000003c; */
+
+
+    /* background: linear-gradient(to right, #e6dada, #274046);  */
+    /* background: linear-gradient(to right, #5d4157, #a8caba); */
+
+    /* background: linear-gradient(to right, #870000, #190a05); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* background: #948E99;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2E1437, #948E99);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2E1437, #948E99); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* position: fixed; */
+    /* opacity: 0.5; */
+    background-size: cover;
+    height:78vh;
+    width:100%;
+    border-radius: 2.2rem;
+    overflow:scroll;
+}
+.cards{
+    padding: 0rem 10rem 3rem 10rem;
+
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    /* color: white; */
+    /* position:relative; */
+    /* background-image: url("./images/paper-background.jpg"); */
+    /* opacity: 0.4; */
+    /* background-size: cover; */
+    /* background-color: rgba(112, 90, 97, 0.518); */
+    background-color: rgba(242, 229, 191,0.3);
+
+    /* background-color: rgba(242, 229, 191,0.3); */
+/* background-color: #0000003c; */
+/* color: rgba(240, 248, 255, 0.543); */
+
+    /* opacity: 0.8; */
+    /* opacity: 1; */
+    /* border:6px solid transparent; */
+    border-radius: 32px;
+    height:29rem;
+    width:25rem;
+    margin: 1.5rem 2rem 2rem 2rem;
+    box-shadow: 4px -3px 5px black;
+    text-align: center;
+    background-color: rgba(242, 229, 191,0.3);
+    /* opacity: 0.8; */
+    /* opacity: 1; */
+    border:2px solid rgb(61, 4, 4);
+    border-radius: 32px;
+}
+a{
+    text-decoration: none;
+color: black;    
+}
+.form{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+text-decoration: none;
+margin-left:15px;
+border-radius: 5px;
+font-size: 15px;
+transition-duration: 0.4s;
+background-color: rgb(245, 221, 221);
+}
+/* .form-button {
+   
+    font-size: 20px;
+  } */
+  
+  button:hover {
+    background-color: transparent; /* Green */
+    color: black;
+  }
+h3{
+    margin-bottom:10px ;
+}
+.cards-form{
+    padding: 1rem;
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-form {
+    /* color: white; */
+    /* position:relative; */
+    /* background-image: url("./images/paper-background.jpg"); */
+    /* opacity: 0.4; */
+    /* background-size: cover; */
+    /* background-color: rgba(112, 90, 97, 0.518); */
+    background-color: rgba(242, 229, 191,0.3);
+
+    /* background-color: rgba(242, 229, 191,0.3); */
+    /* opacity: 0.8; */
+    /* opacity: 1; */
+    border:2px solid rgb(61, 4, 4);
+    border-radius: 32px;
+    height:27rem;
+    width:25rem;
+    margin: 1rem;
+    box-shadow: 4px -3px 5px black;
+    /* text-align: center; */
+}
+.main-content-form{
+    /* background-image: url("./images/stone-surface-background.jpg"); */
+    background-color: #BBBBBC;
+    margin-top: 60px;
+    /* opacity: 0.8; */
+    /* background-color: #3B1C32; */
+    /* position: fixed; */
+    /* opacity: 0.5; */
+    background-size: cover;
+    height:78vh;
+    width:100%;
+    border-radius: 2.2rem;
+    
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  input{
+    width: 100%;
+    height: 30px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+ 
+    .form-button {
+        transition-duration: 0.4s;
+        /* background-color: white; */
+background-color: rgb(245, 221, 221);
+
+        font-size: 20px;
+      }
+      
+      .form-button:hover {
+        background-color: transparent; /* Green */
+        color: black;
+      }
+      .main-content::-webkit-scrollbar{
+        background:transparent;
+    }
+    .main-content::-webkit-scrollbar-thumb{
+        background-color: grey;
+        /* rgb(197, 192, 192); */
+        border-radius: 10px;
+    }
+    .main-content::-webkit-scrollbar-corner{
+        border-radius: 10px;
+        background-color:transparent;
+    }
+    .main-content-form-user{
+        /* background-image: url("./images/stone-surface-background.jpg"); */
+    margin-top: 60px;
+
+    background-color: #BBBBBC;
+
+        opacity: 0.8;
+        /* background-color: #3B1C32; */
+        /* position: fixed; */
+        /* opacity: 0.5; */
+        background-size: cover;
+        height:78vh;
+        width:100%;
+        border-radius: 2.2rem;
+        
+        
+    }
+    .card-form-user {
+        /* color: white; */
+        /* position:relative; */
+        /* background-image: url("./images/paper-background.jpg"); */
+        /* opacity: 0.4; */
+        /* background-size: cover; */
+        /* background-color: rgba(112, 90, 97, 0.518); */
+        background-color: rgba(242, 229, 191,0.3);
+
+
+        /* opacity: 0.8; */
+        /* opacity: 1; */
+        box-shadow: 4px -3px 5px black;
+        border-radius: 32px;
+        height:27rem;
+        width:25rem;
+        margin: 0;
+        /* box-shadow: 6px -8px 10px rgb(61, 4, 4); */
+        overflow: scroll;
+        /* text-align: center; */
+    }
+    .main-content-form-new::-webkit-scrollbar{
+        background:transparent;
+    }
+    .main-content-form-new::-webkit-scrollbar-thumb{
+        background-color: grey;
+        /* rgb(197, 192, 192); */
+        border-radius: 10px;
+    }
+    .main-content-form-new::-webkit-scrollbar-corner{
+        border-radius: 10px;
+        background-color:transparent;
+    }
+    .card-form-user::-webkit-scrollbar{
+        background:transparent;
+    }
+    .card-form-user::-webkit-scrollbar-thumb{
+        background-color:transparent;
+        /* rgb(197, 192, 192); */
+        border-radius: 10px;
+    }
+    .card-form-user::-webkit-scrollbar-corner{
+        border-radius: 10px;
+        background-color:transparent;
+    }
+    .card-form-new{
+        /* color: white; */
+        /* position:relative; */
+        /* background-image: url("./images/paper-background.jpg"); */
+        /* opacity: 0.4; */
+        /* background-size: cover; */
+        background-color: rgba(242, 229, 191,0.3);
+        /* opacity: 0.8; */
+        /* opacity: 1; */
+        border:2px solid rgb(61, 4, 4);
+        border-radius: 32px;
+        height:56.5rem;
+        width:25rem;
+        margin: 0;
+        box-shadow: 4px -3px 5px black;
+        /* text-align: center; */
+    }
+    .card-form-delete{
+         /* color: white; */
+    /* position:relative; */
+    /* background-image: url("./images/paper-background.jpg"); */
+    /* opacity: 0.4; */
+    /* background-size: cover; */
+    /* background-color: rgba(112, 90, 97, 0.518); */
+    background-color: rgba(242, 229, 191,0.3);
+
+    /* background-color: rgba(242, 229, 191,0.3); */
+    /* opacity: 0.8; */
+    /* opacity: 1; */
+    border:2px solid rgb(61, 4, 4);
+    border-radius: 32px;
+    height:23rem;
+    width:25rem;
+    margin: 1rem;
+    box-shadow: 4px -3px 5px black;
+    /* text-align: center; */
+    }
+    .main-content-form-delete{
+          /* background-image: url("./images/stone-surface-background.jpg"); */
+    background-color: #BBBBBC;
+    margin-top: 60px;
+    /* padding-right: 60px; */
+    /* opacity: 0.8; */
+    /* background-color: #3B1C32; */
+    /* position: fixed; */
+    /* opacity: 0.5; */
+    background-size: cover;
+    height:78vh;
+    width:100%;
+    border-radius: 2.2rem;
+    
+    }
+.add-btn{
+    font-size: 30px;
+}
+    .add-btn:hover{
+        font-size: 40px
+    }
+
+.main-content-form-new{
+       /* background-image: url("./images/stone-surface-background.jpg"); */
+       margin-top: 60px;
+
+       background-color: #BBBBBC;
+   
+           opacity: 0.8;
+           /* background-color: #3B1C32; */
+           /* position: fixed; */
+           /* opacity: 0.5; */
+           background-size: cover;
+           height:78vh;
+           width:100%;
+           border-radius: 2.2rem;
+           overflow: scroll;
+}
+
+.arrow:hover{
+    color: white;
+}
